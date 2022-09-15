@@ -6,7 +6,7 @@ import Cors from 'cors';
 //appconfig
 const app = express();
 const port = process.env.PORT || 8001;
-const connection_url = `mongodb+srv://admin:Zwk8XCrYvlo0wQXb@cluster0.6uqmhny.mongodb.net/?retryWrites=true&w=majority`;
+const connection_url = `mongodb+srv://admin:<pass change >@cluster0.6uqmhny.mongodb.net/?retryWrites=true&w=majority`;
 
 //middlewares
 
